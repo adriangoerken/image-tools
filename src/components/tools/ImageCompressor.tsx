@@ -62,11 +62,7 @@ const ImageCompressor = ({ isActive }: ImageCompressorProps) => {
 	});
 	const canvasRef = useRef<HTMLCanvasElement>(null);
 
-	const applyImageOptimizations = (
-		ctx: CanvasRenderingContext2D,
-		width: number,
-		height: number
-	) => {
+	const applyImageOptimizations = (ctx: CanvasRenderingContext2D) => {
 		// Apply different optimization strategies based on selected option
 		switch (options.compressionStrategy) {
 			case 'quality':
@@ -151,11 +147,7 @@ const ImageCompressor = ({ isActive }: ImageCompressorProps) => {
 							tempCanvas.width = stepWidth;
 							tempCanvas.height = stepHeight;
 
-							applyImageOptimizations(
-								tempCtx,
-								stepWidth,
-								stepHeight
-							);
+							applyImageOptimizations(tempCtx);
 
 							if (i === 0) {
 								tempCtx.drawImage(
@@ -190,7 +182,7 @@ const ImageCompressor = ({ isActive }: ImageCompressorProps) => {
 					// Final resize to exact dimensions
 					canvas.width = newWidth;
 					canvas.height = newHeight;
-					applyImageOptimizations(ctx, newWidth, newHeight);
+					applyImageOptimizations(ctx);
 					ctx.drawImage(img, 0, 0, newWidth, newHeight);
 
 					// Determine output format and quality

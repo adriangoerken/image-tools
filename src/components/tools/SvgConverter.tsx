@@ -35,9 +35,6 @@ const SvgConverter = ({ isActive }: SvgConverterProps) => {
 		try {
 			// 1. Load SVG file
 			const svgText = await svgFile.text();
-			const parser = new DOMParser();
-			const svgDoc = parser.parseFromString(svgText, 'image/svg+xml');
-			const svgElement = svgDoc.documentElement;
 
 			// 2. Create image from SVG
 			const img = new Image();
