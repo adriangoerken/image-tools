@@ -1,0 +1,138 @@
+{
+	"Header": {
+		"links": {
+			"linkSvg": "SVG zu PNG",
+			"linkCompressor": "Komprimierer"
+		}
+	},
+	"ImageFramer": {
+		"description": "Füge einen farbigen Rahmen hinzu, um das Bild quadratisch zu machen",
+		"labelUpload": "Bild hochladen",
+		"btnUpload": {
+			"stateUpload": "Bild auswählen",
+			"stateProcessing": "Verarbeitung"
+		},
+		"frameColor1": "Rahmenfarbe",
+		"frameColor2": " (Automatisch aus dem Bild ausgewählt)",
+		"btnDownload": "Gerahmtes Bild herunterladen"
+	},
+	"SvgConverter": {
+		"title": "SVG zu PNG Konverter",
+		"description": "Konvertiere SVG-Dateien in das PNG-Format. Gib die Abmessungen und Hintergrundeinstellungen für die PNG-Ausgabedatei an",
+		"labelUpload": "Bild hochladen",
+		"btnUpload": "SVG auswählen",
+		"dimensions": {
+			"dimWidth": "Breite (px)",
+			"dimHeight": "Höhe (px)"
+		},
+		"btnTransBackground": "Transparenter Hintergrund",
+		"labelBackgroundColor": "Hintergrundfarbe",
+		"btnDownload": {
+			"stateDownload": "In PNG konvertieren",
+			"stateProcessing": "Verarbeitung"
+		}
+	},
+	"ImageCompressor": {
+		"title": "Bildkompressor",
+		"description": "Komprimieren Sie Ihre Bilder bei gleichbleibender Qualität",
+		"labelUpload": "Bild hochladen",
+		"btnUpload": {
+			"stateUpload": "Bild auswählen",
+			"stateProcessing": "Verarbeitung"
+		},
+		"format": {
+			"label": "Format",
+			"selectOptions": {
+				"optWebP": "WebP (Empfohlen)",
+				"optPNG": "PNG (Verlustfrei)"
+			}
+		},
+		"compression": {
+			"label": "Komprimierungsstrategie",
+			"selectOptions": {
+				"optBalanced": "Ausgewogen",
+				"optQuality": "Qualität priorisieren",
+				"optSize": "Größe priorisieren"
+			}
+		},
+		"btnSmoothing": "Bildglättung aktivieren",
+		"quality": "Qualität ",
+		"infos": {
+			"infoOriginalSize": "Originalgröße: ",
+			"infoCompressedSize": "Komprimierte Größe: ",
+			"infoDimensions": "Abmessungen: ",
+			"infoSavings": "Einsparungen: "
+		},
+		"labelCompressed": "Komprimiert",
+		"btnDownload": "Komprimiertes Bild herunterladen"
+	},
+	"Footer": {
+		"copyright": " Alle Rechte vorbehalten.",
+		"links": {
+			"linkHome": "Startseite",
+			"linkImprint": "Impressum",
+			"linkPrivacy": "Datenschutzerklärung"
+		}
+	},
+	"ImprintPage": {
+		"headerTitle": "Impressum",
+		"introText": "Dieses Impressum wird gemäß § 5 des deutschen Telemediengesetzes (TMG) und anderer geltender Gesetze bereitgestellt.",
+		"section1": {
+			"title": "1. Anbieter",
+			"description": {
+				"companyName": "Adrian Goerken",
+				"address": "Wollgrasweg 3, 26676 Barßel, Deutschland",
+				"email": "kontakt@adriangoerken.de",
+				"phone": "+49 152 03304956",
+				"website": "adriangoerken.de"
+			}
+		},
+		"section2": {
+			"title": "2. Haftungsausschluss",
+			"description": "Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
+		},
+		"section3": {
+			"title": "3. Kontakt",
+			"description": "Wenn Sie Fragen zu diesem Impressum oder den bereitgestellten Informationen haben, können Sie mich gerne kontaktieren unter:",
+			"contactInfo": {
+				"email": "kontakt@adriangoerken.de",
+				"phone": "+49 152 03304956"
+			}
+		}
+	},
+	"PrivacyPolicyPage": {
+		"headerTitle": "Datenschutzerklärung",
+		"introText": "Bei Adrian Goerken ('ich', 'mein', 'mir') setze ich mich für den Schutz Ihrer Privatsphäre und die Gewährleistung eines sicheren Online-Erlebnisses ein. Diese Datenschutzerklärung beschreibt, wie ich Ihre persönlichen Daten gemäß der Datenschutz-Grundverordnung (DSGVO) (EU) 2016/679 und den deutschen Datenschutzgesetzen sammle, verwende und schütze.",
+		"section1": {
+			"title": "1. Welche Informationen ich sammle",
+			"description": "Keine Datensammlung:",
+			"list": {
+				"personalInfo": "Es werden keine persönlichen Informationen gesammelt.",
+				"cookies": "Es werden keine Cookies verwendet.",
+				"tracking": "Es werden keine Tracking-Technologien implementiert."
+			}
+		},
+		"section2": {
+			"title": "2. Hosting der Website",
+			"description": "Die Website kann standardmäßige Serverprotokolle für technische Zwecke generieren, die keine personenbezogenen Daten enthalten."
+		},
+		"section3": {
+			"title": "3. Kontakt",
+			"description": "Wenn Sie Fragen oder Bedenken zu dieser Datenschutzerklärung oder meinen Datenpraktiken haben, kontaktieren Sie mich bitte unter:",
+			"contactInfo": {
+				"companyName": "Adrian Goerken",
+				"address": "Wollgrasweg 3, 26676 Barßel, Deutschland",
+				"email": "kontakt@adriangoerken.de",
+				"phone": "+49 152 03304956"
+			}
+		},
+		"section4": {
+			"title": "4. Rechtliche Einhaltung",
+			"description": "Diese Website entspricht der DSGVO, der EU- und den deutschen Datenschutzbestimmungen, indem keine personenbezogenen Daten gesammelt werden."
+		}
+	},
+	"NotFoundPage": {
+		"message": "404 Nicht gefunden",
+		"btnBack": "Zurück"
+	}
+}

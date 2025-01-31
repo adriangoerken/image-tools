@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Disallow crawling of private directories
+Disallow: /private/
+
+# Allow indexing of the main site
+Allow: /index.html
+
+# Additional SEO optimization
+Sitemap: https://adriangoerken.de/sitemap.xml
+
+User-agent: Googlebot
+Allow: /images/og-image.jpg
+Allow: /images/favicon/favicon.ico
+
+User-agent: Bingbot
+Allow: /images/og-image.jpg
+Allow: /images/favicon/favicon.ico

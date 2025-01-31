@@ -1,0 +1,138 @@
+{
+	"Header": {
+		"links": {
+			"linkSvg": "SVG to PNG",
+			"linkCompressor": "Compressor"
+		}
+	},
+	"ImageFramer": {
+		"description": "Add a colored frame to make your image square",
+		"labelUpload": "Upload Image",
+		"btnUpload": {
+			"stateUpload": "Choose Image",
+			"stateProcessing": "Processing"
+		},
+		"frameColor1": "Frame Color",
+		"frameColor2": " (Auto-selected from image)",
+		"btnDownload": "Download Framed Image"
+	},
+	"SvgConverter": {
+		"title": "SVG to PNG Converter",
+		"description": "Convert SVG files to PNG format. Specify dimensions and background settings for the output PNG file",
+		"labelUpload": "Upload Image",
+		"btnUpload": "Choose SVG",
+		"dimensions": {
+			"dimWidth": "Width (px)",
+			"dimHeight": "Height (px)"
+		},
+		"btnTransBackground": "Transparent Background",
+		"labelBackgroundColor": "Background Color",
+		"btnDownload": {
+			"stateDownload": "Convert to PNG",
+			"stateProcessing": "Processing"
+		}
+	},
+	"ImageCompressor": {
+		"title": "Image Compressor",
+		"description": "Compress your images while maintaining quality",
+		"labelUpload": "Upload Image",
+		"btnUpload": {
+			"stateUpload": "Choose Image",
+			"stateProcessing": "Processing"
+		},
+		"format": {
+			"label": "Format",
+			"selectOptions": {
+				"optWebP": "WebP (Recommended)",
+				"optPNG": "PNG (Lossless)"
+			}
+		},
+		"compression": {
+			"label": "Compression Strategy",
+			"selectOptions": {
+				"optBalanced": "Balanced",
+				"optQuality": "Prioritize Quality",
+				"optSize": "Prioritize Size"
+			}
+		},
+		"btnSmoothing": "Enable Image Smoothing",
+		"quality": "Quality ",
+		"infos": {
+			"infoOriginalSize": "Original size: ",
+			"infoCompressedSize": "Compressed size: ",
+			"infoDimensions": "Dimensions: ",
+			"infoSavings": "Savings: "
+		},
+		"labelCompressed": "Compressed",
+		"btnDownload": "Download Compressed Image"
+	},
+	"Footer": {
+		"copyright": " All rights reserved.",
+		"links": {
+			"linkHome": "Home",
+			"linkImprint": "Imprint",
+			"linkPrivacy": "Privacy Policy"
+		}
+	},
+	"ImprintPage": {
+		"headerTitle": "Imprint",
+		"introText": "This imprint is provided in accordance with Section 5 of the German Telemedia Act (TMG) and other applicable laws.",
+		"section1": {
+			"title": "1. Provider",
+			"description": {
+				"companyName": "Adrian Goerken",
+				"address": "Wollgrasweg 3, 26676 Barßel, Germany",
+				"email": "kontakt@adriangoerken.de",
+				"phone": "+49 152 03304956",
+				"website": "adriangoerken.de"
+			}
+		},
+		"section2": {
+			"title": "2. Disclaimer",
+			"description": "Despite careful monitoring, I assume no liability for the content of external links. The content of linked pages is the sole responsibility of their operators."
+		},
+		"section3": {
+			"title": "3. Contact Me",
+			"description": "If you have any questions regarding this imprint or the information provided, feel free to contact me at:",
+			"contactInfo": {
+				"email": "kontakt@adriangoerken.de",
+				"phone": "+49 152 03304956"
+			}
+		}
+	},
+	"PrivacyPolicyPage": {
+		"headerTitle": "Privacy Policy",
+		"introText": "At Adrian Goerken ('I,' 'my,' 'me'), I am committed to protecting your privacy and ensuring a safe online experience. This Privacy Policy outlines how I collect, use, and protect your personal data in accordance with the General Data Protection Regulation (GDPR) (EU) 2016/679 and German data protection laws.",
+		"section1": {
+			"title": "1. Information I Collect",
+			"description": "No data collection:",
+			"list": {
+				"personalInfo": "No personal information is collected.",
+				"cookies": "No cookies are used.",
+				"tracking": "No tracking technologies are implemented."
+			}
+		},
+		"section2": {
+			"title": "2. Website Hosting",
+			"description": "The website my generate standard server logs for technical purposes, which do not contain personally identifiable information."
+		},
+		"section3": {
+			"title": "3. Contact Me",
+			"description": "If you have any questions or concerns about this Privacy Policy or my data practices, please contact me at:",
+			"contactInfo": {
+				"companyName": "Adrian Goerken",
+				"address": "Wollgrasweg 3, 26676 Barßel, Germany",
+				"email": "kontakt@adriangoerken.de",
+				"phone": "+49 152 03304956"
+			}
+		},
+		"section4": {
+			"title": "4. Legal Compliance",
+			"description": "This website complies with GDPR, EU, and German data protection regulations by not collecting personal data."
+		}
+	},
+	"NotFoundPage": {
+		"message": "404 Not Found",
+		"btnBack": "Go Back"
+	}
+}

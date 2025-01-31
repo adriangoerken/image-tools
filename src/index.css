@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ubuntu-regular - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Ubuntu-v20-latin-regular.woff2') format('woff2');
+}
+/* ubuntu-italic - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Ubuntu';
+	font-style: italic;
+	font-weight: 400;
+	src: url('/fonts/Ubuntu-v20-latin-italic.woff2') format('woff2');
+}
+/* ubuntu-700 - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/Ubuntu-v20-latin-700.woff2') format('woff2');
+}
+
+body {
+	@apply font-sans;
+}
+
+/* Custom styles for the input range handle */
+input[type='range']::-webkit-slider-thumb {
+	@apply bg-green-700 w-4 h-4 rounded-full;
+	-webkit-appearance: none;
+	cursor: pointer;
+}
+
+input[type='range']::-moz-range-thumb {
+	@apply bg-green-700 w-4 h-4 rounded-full;
+	cursor: pointer;
+}
+
+input[type='range']::-ms-thumb {
+	@apply bg-green-700 w-4 h-4 rounded-full;
+	cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+	/* Custom scroll bar */
+	/* width */
+	::-webkit-scrollbar {
+		width: 15px;
+	}
+
+	/* height */
+	::-webkit-scrollbar {
+		height: 15px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		/*background: #2d2d2d;*/ /* Slightly lighter than bg-gray-900 */
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #1f1f1f; /* Tailwind's bg-gray-600 */
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #1d1d1d; /* Tailwind's bg-gray-500 */
+	}
+}
